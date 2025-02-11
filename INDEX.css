@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: center;
     padding: var(--section-padding);
-    background: url('assest/beach (3).jpg') no-repeat center center/cover;
+    background: url('beach (3).jpg') no-repeat center center/cover;
     position: relative;
 }
 
