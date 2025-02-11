@@ -1,4 +1,4 @@
-/* Base styles */
+
 :root {
     --primary-color: #2563eb;
     --text-color: #1f2937;
@@ -24,7 +24,7 @@
     background-color: var(--bg-color);
   }
   
-  /* Typography */
+  
   h1, h2, h3 {
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -41,7 +41,7 @@
     margin-bottom: 3rem;
   }
   
-  /* Navigation */
+
   header {
     position: fixed;
     width: 100%;
@@ -92,16 +92,16 @@
 
 .hero-grid {
     display: flex;
-    align-items: center; /* Centers content vertically */
-    gap: 2rem; /* Adjusts space between image and text */
+    align-items: center;
+    gap: 2rem;
     max-width: 1200px;
     width: 100%;
-    justify-content: flex-start; /* Keeps content aligned on the left */
+    justify-content: flex-start;
     padding: 2rem;
 }
 
 .hero-image img {
-    width: 450px; /* Adjust size as needed */
+    width: 450px;
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
@@ -116,7 +116,7 @@
 
 
 .vibrant-name {
-    color: #c57338; /* Vibrant color for the name */
+    color: #c57338; 
     font-size: 5rem;
     margin: 0;
 }
@@ -129,12 +129,11 @@
 .subtitle {
     font-size: 1rem;
     margin-top: 0.5rem;
-    max-width: 400px; /* Limit width of the subtitle for better alignment */
+    max-width: 400px; 
 }
 
 
  
-  /* About Section */
   .about {
     padding: var(--section-padding);
     background-color: var(--bg-color);
@@ -162,7 +161,7 @@
     font-weight: 500;
   }
   
-  /* Projects Section */
+ 
   .projects {
     padding: var(--section-padding);
     background-color: var(--accent-color);
@@ -211,19 +210,19 @@
   .contact {
     padding: var(--section-padding);
     text-align: center;
-    background-color: #f8f9fa; /* Light background color */
+    background-color: #f8f9fa;
 }
 
 .contact-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Space above buttons */
+    margin-top: 20px; 
 }
 
 .contact-buttons {
     display: flex;
-    flex-direction: row; /* Stack buttons vertically */
-    gap: 10px; /* Space between buttons */
+    flex-direction: row;
+    gap: 10px; 
 }
 
 .contact-btn {
@@ -246,11 +245,11 @@
 
     
     .profile-photo {
-        width: 150px; /* Adjust as needed */
-        height: 150px; /* Keeps it square */
-        border-radius: 50%; /* Makes it a circle */
-        object-fit: cover; /* Ensures it fits within the circle */
-        margin-bottom: 1.5rem; /* Adds space below the photo */
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        margin-bottom: 1.5rem; 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
       .education {
